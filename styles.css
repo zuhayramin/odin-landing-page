@@ -9,16 +9,49 @@ body {
     margin: 0;
 }
 
-.hero-section {
-    background-color: #1f2937;
-}
-
 header {
     display: flex;
-    gap: 600px;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 100px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+.hero {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    gap: 100px;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    flex: 1;
+}
+
+.hero-image {
+    width: 500px;
+    flex: 1 1 auto;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 15px 0;
 }
 
 .logo {
@@ -35,4 +68,45 @@ li {
 .list {
     display: flex;
     gap: 20px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 200px;
+}
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    gap: 60px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 30px;
+}
+
+.info-boxes {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box-subtext {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #a1a2a3;
 }
